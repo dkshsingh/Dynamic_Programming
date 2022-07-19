@@ -25,3 +25,13 @@
 #### 3. Count of subset sum
 #### 4. Minimum subset difference
 #### 5. Largest sum
+
+## 0-1 knapsack problem :
+- Fractional knapsack (Greedy)
+- 0-1 knapsack 
+- unbounded knapsack
+## 0-1 knapsack :
+#### some weight (wt[]), some values (val[]) and then a maximum weight (W).
+
+
+
