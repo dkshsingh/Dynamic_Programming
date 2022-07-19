@@ -33,5 +33,7 @@
 ## 0-1 knapsack :
 #### some weight (wt[]), some values (val[]) and then a maximum weight (W).
 
-
+### How to write knapsack code?
+1. Return Max profit
+2. Return int
 
