@@ -37,3 +37,29 @@
 1. Return Max profit
 2. Return int
 
+### function
+      int knapsack(int wt[],int val[],int w, int n)
+      {
+         #base condition   ---> think of the smallest valid integer
+         #choice diagram
+         }
+      
+     ***** Base condition :
+                   if(n==0||w==0)
+                   return 0              #if item = 0 then max profit = 0
+      
+     ****** choice diagram :
+                 recursive func 
+                 for(I/P) call----> for (smaller I/P)     example ----> fib(n) call--> fib(n-1)
+                 
+                 if item1 and w1
+                 then w1<=w            #w1 is given value and w is knapsack
+           code:
+               if(wt[n-1]<=w)
+               return(val[wt]+knapsack(wt[],value[],w1-wt[n-1])
+      
+      
+      
+      
+      
+      
