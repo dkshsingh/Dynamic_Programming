@@ -68,7 +68,26 @@
                       knapsack(int, val, w, n-1);
                   else if(wt[n-1]>w)
                       return knapsack(wt, val, w, n-1);
-      
+  #### Memoization:
+                 knapsack(wt[], val[], w, n)
+                 int t[n+1][w+1]
+                 memset(t, -1, sizeof(t)]
+  #### knapsack DP code(memoization):
+                  int static(t[102][1002]
+                  memset(t,-1,sizeof[t])
+                  *****base condition
+                  int knapsack(int wt[], int val[], int w, int n)
+                  {
+                      if(n==0||w==0)
+                          return 0
+                      if(t[n][w] += -1)
+                          return t[n][w]
+                  *****choice diagram
+                  if(wt[n-1]<=w)
+                      return t[n][w]= max(val[n-1]+knapsack[wt,val,w-wt[n-1], n-1), knapsack(wt,val,w,n-1)
+                      else if(wt[n-1]>w)
+                      return t[n][w]=(knapsack[wt,val,w,n-1)         ------this changes recursive to dp
+  
       
       
       
